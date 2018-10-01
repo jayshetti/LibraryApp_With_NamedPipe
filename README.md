@@ -2,7 +2,7 @@
 
 ***************************************************
 * This project is demo for NamedPipe using which the small libarary application is implemented
-* There are 3 Application 
+* There are 2 Applications
    1] Server
    2] Client
 
@@ -14,11 +14,11 @@
 * Connecting to existing NamedPipe
 * Request to create the objects on servre
 * Add details to object
-* Perfoms Async Read request to get the updated notifications(Assumptions is made that client may get notfiied about addded
+* Perfoms Async Read request to get the updated notifications(Assumptions is made that client may get notfied about addded
       books at any time);
 * Perfoms Sync Read to get the book details
     
-* The Packet is used to communicate bteween client and server, Fllowing is the structre of packet.
+* The Packet is used to communicate between client and server, Fllowing is the structre of packet.
 
    OpId| Name of the Book|  ID of the Book|Author of the Book
 
@@ -35,5 +35,5 @@
  To satrt the both application simply run bat file.
  
 # Note
-  The applications is built on windows 64 bit
+  The applications is built on windows 64 bit.
   Due to async call for read data the print may come in btw the char, But at the application or UI level this can be taken care.
