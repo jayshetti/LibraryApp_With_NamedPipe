@@ -18,16 +18,10 @@
       *Perfoms Sync Read to get the book details
     
 * The Packet is used to communicate bteween client and server, Fllowing is the structre of packet.
-        =====================
-         OpId
-        =====================
-        Name of the Book
-        =====================
-        ID of the Book
-        =====================
-        Author of the Book
-        =====================
-        
+        ============================================================
+         OpId| Name of the Book|  ID of the Book|Author of the Book
+        =============================================================
+       
  * OpId in packet carries the kind of operation to be done at the server side
     Eg: OpId=1 Indicates Add and Create object 
  
