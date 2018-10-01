@@ -6,16 +6,16 @@
    1] Server
    2] Client
    1] Server has got implementaion of
-      *Creating  NamedPipe
-      *Creating  Custome Class to which allows user to add and get details
-      *List is used to maintin the objects of the class
+*Creating  NamedPipe
+*Creating  Custome Class to which allows user to add and get details
+*List is used to maintin the objects of the class
    2] Client has got implementaion of
-      *Connecting to existing NamedPipe
-      *Request to create the objects on servre
-      *Add details to object
-      *Perfoms Async Read request to get the updated notifications(Assumptions is made that client may get notfiied about addded
+*Connecting to existing NamedPipe
+*Request to create the objects on servre
+*Add details to object
+*Perfoms Async Read request to get the updated notifications(Assumptions is made that client may get notfiied about addded
       books at any time);
-      *Perfoms Sync Read to get the book details
+*Perfoms Sync Read to get the book details
     
 * The Packet is used to communicate bteween client and server, Fllowing is the structre of packet.
         ============================================================
