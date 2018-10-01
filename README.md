@@ -1,0 +1,1 @@
+# LibraryApp_With_NamedPipe
