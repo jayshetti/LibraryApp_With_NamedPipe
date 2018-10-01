@@ -2,14 +2,15 @@
 
 ***************************************************
 * This project is demo for NamedPipe using which the small libarary application is implemented
-* There to Application 
+* There are 3 Application 
    1] Server
    2] Client
-   1] Server has got implementaion of
+
+* 1] Server has got implementaion of
 * Creating  NamedPipe
 * Creating  Custome Class to which allows user to add and get details
 * List is used to maintin the objects of the class
-   2] Client has got implementaion of
+* 2] Client has got implementaion of
 * Connecting to existing NamedPipe
 * Request to create the objects on servre
 * Add details to object
